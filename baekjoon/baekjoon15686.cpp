@@ -18,7 +18,7 @@ void dfs(int cur, int count) {
 		return;
 	}
 
-	if (count == M) {
+	if (count <= M) {
 		int sum_distance = 0;
 		for (int i = 0; i < house.size(); i++) {
 			int house_distance = 9999;
